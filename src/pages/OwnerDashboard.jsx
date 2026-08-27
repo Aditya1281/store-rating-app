@@ -34,7 +34,7 @@ function OwnerDashboard() {
         }
 
         const response = await fetch(
-          `http://localhost:5000/api/stores/owner/${ownerId}`
+          `https://store-rating-app-7uui.onrender.com/api/stores/owner/${ownerId}`
         );
 
         const data = await response.json();

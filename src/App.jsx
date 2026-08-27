@@ -187,8 +187,8 @@ function AuthPage() {
 
     try {
       const endpoint = isLogin
-        ? "http://localhost:5000/api/auth/login"
-        : "http://localhost:5000/api/auth/signup";
+        ? "https://store-rating-app-7uui.onrender.com/api/auth/login"
+        : "https://store-rating-app-7uui.onrender.com/api/auth/signup";
 
       const body = isLogin
         ? {

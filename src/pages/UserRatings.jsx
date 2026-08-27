@@ -22,7 +22,7 @@ function UserRatings() {
         }
 
         const response = await fetch(
-          `http://localhost:5000/api/ratings/user/${userId}`
+          `https://store-rating-app-7uui.onrender.com/api/ratings/user/${userId}`
         );
 
         const data = await response.json();

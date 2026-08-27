@@ -47,7 +47,7 @@ function UserDashboard() {
         setStoresError("");
 
         const response = await fetch(
-          "http://localhost:5000/api/stores"
+          "https://store-rating-app-7uui.onrender.com/api/stores"
         );
 
         const data = await response.json();
@@ -152,7 +152,7 @@ function UserDashboard() {
       setRatingLoading(true);
 
       const response = await fetch(
-        "http://localhost:5000/api/ratings",
+        "https://store-rating-app-7uui.onrender.com/api/ratings",
         {
           method: "POST",
 
